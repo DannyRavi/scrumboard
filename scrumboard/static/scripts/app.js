@@ -84,12 +84,12 @@
 
             //tags
             $scope.tags = [
-                {tag:'#BEE3F8', tag_name: 'Bug'},
-                {tag:'#FED7D7', tag_name: 'Feature Request'},
-                {tag:'#EDF2F7', tag_name: 'Marketing'},
-                {tag:'#FEEBC8', tag_name: 'v2.0'},
-                {tag:'#C6F6D5', tag_name: 'Enhancement'},
-                {tag:'#FED7E2', tag_name: 'Design'},
+                {tag:'#BEE3F8', tag_name: 'دانیال خسروی'},
+                {tag:'#FED7D7', tag_name: 'علی گرم‌رودی'},
+                {tag:'#EDF2F7', tag_name: 'مهدی فیروزیان'},
+                {tag:'#FEEBC8', tag_name: 'عباس قادری'},
+                {tag:'#C6F6D5', tag_name: 'علی محسنی'},
+                {tag:'#FED7E2', tag_name: 'ابوذر غفاری'},
             ];
             
             Login.redirectedIfNotLoggedIn();

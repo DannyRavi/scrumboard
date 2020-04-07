@@ -14,12 +14,12 @@ class List(models.Model):
 
 class Card(models.Model):
     TAG_CHOICES = (
-        ('#BEE3F8', 'Bug'),
-        ('#FED7D7', 'Feature Request'),
-        ('#EDF2F7', 'Marketing'),
-        ('#FEEBC8', 'v2.0'),
-        ('#C6F6D5', 'Enhancement'),
-        ('#FED7E2', 'Design'),
+        ('#BEE3F8', 'دانیال خسروی'),
+        ('#FED7D7', 'علی گرم‌رودی'),
+        ('#EDF2F7', 'مهدی فیروزیان'),
+        ('#FEEBC8', 'عباس قادری'),
+        ('#C6F6D5', 'علی محسنی'),
+        ('#FED7E2', 'ابوذر غفاری'),
     )
     title = models.CharField(max_length=100)
     description = models.TextField(blank=True)
